@@ -1,0 +1,107 @@
+body {
+    font-family: Comfortaa;
+    background-color: #7F779C;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    height: 100px;
+}
+
+main {
+    background-color: #B4A9D7;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-link:hover {
+        color: #FDEB97;
+     transition: 0.5s color linear;
+     font-size: 30px;
+      transform: scale(1);
+     transition: 0.5s linear;
+}
+
+h1 {
+    text-align: center;
+    color: #484459;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.post {
+    background-color: #7F779C;
+    padding: 15px 45px 30px 45px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+}
+
+.post-text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.post-img {
+    width: 200px;
+    height: 200px;
+}
+
+.post-imgs {
+    width: 300px;
+    height: 160px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+footer {
+
+    align-items: center;
+    color: white;
+}
+
+footer p {
+    font-size: 24px;
+    text-align: center;
+}
